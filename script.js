@@ -1,5 +1,9 @@
 function minDate(dates) {
   //write you code here
+	const sortDate = [...dates];
+	sortDate.sort();
+	return sortDate[0];
+	
 }
 
 // Do not change the code
